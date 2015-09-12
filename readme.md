@@ -23,7 +23,13 @@ A little project I put together for rapid development. I've included the things 
 
 5. Run `gulp`
 
-6. Add the following to your `Homestead.yaml` file:
+6. Run `php artisan migrate`
+
+7. Edit the user account in `database/seeds/ConstantsTableSeeder.php`
+
+8. Run `php artisan db:seed --class=ConstantsTableSeeder`
+
+9. Add the following to your `Homestead.yaml` file:
 
     <pre>
     sites:
@@ -33,13 +39,13 @@ A little project I put together for rapid development. I've included the things 
         - laravel-bootstrapper
     </pre>
 
-7. And the following to your `/etc/hosts` file:
+10. And the following to your `/etc/hosts` file:
 
     <pre>
     192.168.10.10 laravel-bootstrapper.dev
     </pre>
 
-8. Either run `homestead provision` or ssh into Homestead and run `serve laravel-bootstrapper.dev path/to/laravel-bootstrapper/public` changing the path accordingly.
+11. Either run `homestead provision` or ssh into Homestead and run `serve laravel-bootstrapper.dev path/to/laravel-bootstrapper/public` changing the path accordingly.
 
 ### Features
 

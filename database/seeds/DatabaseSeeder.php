@@ -12,11 +12,6 @@ class DatabaseSeeder extends Seeder
      */
     private $tables = array(
         'password_resets',
-        'permission_role',
-        'permissions',
-        'profiles',
-        'role_user',
-        'roles',
         'users'
     );
 
