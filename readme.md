@@ -49,4 +49,12 @@ A little project I put together for rapid development. I've included the things 
 
 ### Features
 
+1. Bootstrap Sass
+2. Font-Awesome Sass
+3. Elixir Versioning
+4. Default About pages
+5. Base user account
+
 ### Roadmap
+
+[] Bootstrap 4
