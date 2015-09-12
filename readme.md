@@ -13,11 +13,13 @@ sites:
 databases:
     - laravel-bootstrapper
 </pre> 
+
 2. And the following to your `/etc/hosts` file:
 
 <pre>
 192.168.10.10 laravel-bootstrapper.dev
 </pre>
+
 3. Either run `homestead provision` or ssh into Homestead and run `serve laravel-bootstrapper.dev path/to/laravel-bootstrapper/public` changing the path accordingly.
 
 ### Features
